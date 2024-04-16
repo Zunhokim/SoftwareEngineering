@@ -11,10 +11,21 @@
     <title>React App</title>
   </head>
   <body>
-    <p id="demo"></p>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
     <script>
-      hello = () => "Hello Junho!"; 
-      document.getElementById("demo").innerHTML = hello();
+      // 1,2번
+      hello1 = () => "Hello Junho!"; 
+      document.getElementById("demo1").innerHTML = hello1();
+
+      // 3,4번
+      hello2 = (val) => "Hello " + val;
+      document.getElementById("demo2").innerHTML = hello2("Junho!");
     </script>
+
+    <!--Practice #2, #3-->
+    <div id="root"></div>
   </body>
 </html>
