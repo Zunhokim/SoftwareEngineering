@@ -1,32 +1,39 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
+// import App from './App';
+// import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const practice2 = <h1>Hi everyone!</h1>;
+ReactDOM.render(practice2, document.getElementById('root2'));
 
-root.render(
+const practice3_1 = (
     <div>
-
-        {/* Practice #2. */}
-        <h1>Hi everyone!</h1>
-
-        <hr></hr>
-        
-        {/* Practice #3. */}
         <h1>Class Name</h1>
         Mobile Software
-        <h1>Proffesor's Name</h1>
-        Woongsup Kim
-        <h1>List of Students</h1>
-        <li>Junho Kim</li>
-        <li>Hyundo Park</li>
-        <li>Heonyoung Jeong</li>
-        <li>Pansuk Sim</li>
-        <li>Sanha Kim</li>
-
     </div>
     
 );
+ReactDOM.render(practice3_1, document.getElementById('root3_1'));
 
-reportWebVitals();
+const practice3_2 = (
+    <div>
+        <h1> Proffesor's Name</h1>
+        Woongsup Kim
+    </div>
+)
+ReactDOM.render(practice3_2, document.getElementById('root3_2'));
+
+const practice3_3 = (
+    <div>
+        <h1>List of Students</h1>
+        <ul>
+            <li>Junho Kim</li>
+            <li>Hyundo Park</li>
+            <li>Heonyoung Jeong</li>
+        </ul>
+    </div>
+)
+ReactDOM.render(practice3_3, document.getElementById('root3_3'));
+
+
+// reportWebVitals();
