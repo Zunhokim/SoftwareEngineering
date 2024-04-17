@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Dongguk from './practice4.js';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
@@ -35,5 +36,6 @@ const practice3_3 = (
 )
 ReactDOM.render(practice3_3, document.getElementById('root3_3'));
 
+ReactDOM.render(<Dongguk/>, document.getElementById('root4'));
 
 // reportWebVitals();
