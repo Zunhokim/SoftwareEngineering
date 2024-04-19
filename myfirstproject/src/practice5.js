@@ -26,13 +26,13 @@ import React from "react";
 
 class StaffInfo extends React.Component {
     render() {
-        return <h4>Welcome to {this.props.name.com_name} Customer Service. My name is {this.props.name.stf_name}. How can I help you?</h4>;
+        return <h4>Welcome to {this.props.name.company} Customer Service. My name is {this.props.name.staff}. How can I help you?</h4>;
     }
 }
 
 class Staff extends React.Component {
     render() {
-        const com_info = {com_name: "NEXON", stf_name: "jun ho"}
+        const com_info = {company: "NEXON", staff: "jun ho"}
         return (
             <div>
                 <h1>How to answer a phone when a customer calls.</h1>
