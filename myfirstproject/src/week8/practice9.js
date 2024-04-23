@@ -1,8 +1,21 @@
 import React from "react";
 
 class Student extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { message: "" };
+  }
+
+  handleChange = (event) => {
+    this.setState({ message: event.target.value });
+  };
+
+  handleClick = () => {
+    this.check(this.state.message);
+  };
+  
   check = (a) => {
-    alert(a);
+    alert("당신의 학번은 "+ a + " 입니다. ");
   }
   render() {
     return (

@@ -13,7 +13,7 @@ import StdInfo_11 from './week8/practice11.js';
 ReactDOM.render(<Phone/>, document.getElementById("root6"));
 ReactDOM.render(<StudentInfo/>, document.getElementById("root7"));
 ReactDOM.render(<Container/>, document.getElementById("root8"));
-// ReactDOM.render(<Student/>, document.getElementById("root9"));
+ReactDOM.render(<Student/>, document.getElementById("root9"));
 ReactDOM.render(<StdInfo_10/>, document.getElementById("root10"));
 ReactDOM.render(<StdInfo_11/>, document.getElementById("root11"));
 
