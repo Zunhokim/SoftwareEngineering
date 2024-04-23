@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Phone from './practice6.js';
-import StudentInfo from './practice7.js';
-import Container from './practice8.js';
+import Phone from './week8/practice6.js';
+import StudentInfo from './week8/practice7.js';
+import Container from './week8/practice8.js';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
