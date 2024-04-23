@@ -10,7 +10,7 @@ class Container extends React.Component {
     this.setState({show: false});
   }
 
-  redner() {
+  render() {
     let myheader;
     if (this.state.show) {
       myheader = <Child />
