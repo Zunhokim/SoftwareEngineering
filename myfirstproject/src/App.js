@@ -1,11 +1,10 @@
 import React from 'react';
+import './Mycss.css';
 
-function App() {
-  return (
-    <div>
-      <h1>Hello Dongguk Univ!</h1>
-    </div>
-  );
+class Dongguk extends React.Component {
+  render() {
+    return <h1>Hello, Dongguk!</h1>;
+  }
 }
 
-export default App;
+export default Dongguk;
