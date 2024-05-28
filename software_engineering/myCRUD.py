@@ -54,4 +54,15 @@ def delete_document(id):
   else:
     output = "No such id"
 
-  
+@app.route('/score/<id>', methods=['PATCH']) #update score
+def update_document(id):
+  score = request.json["score"]
+  s = collection.find_one({'_id': ObjectId(id)})
+  if s:
+    collection.update_one({'_id': ObjectId(id)}, {'$set': {'score': score}})
+    return "update complete"
+  else:
+    output = "No such id"
+
+if __name__ == '__main__':
+  app.run(debug=True)
