@@ -25,7 +25,7 @@ def get_all_document():
 @app.route('/score/<id>', methods=['GET'])
 def get_one_document(id):
   s = collection.fond_one({'_id': ObjectId(id)})
-  if s:
+  if s: 
     s["_id"] = str(s["_id"])
     output = {'_id': s['_id'], 'name': s['name'], 'score': s['score']}
   else:
